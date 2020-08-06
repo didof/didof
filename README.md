@@ -14,7 +14,8 @@ Here are some ideas to get you started:
 -->
 
 | To do 💭     | In progress   🛠      | QA 📋 | Done ✔ |
-|--------------|-----------------------|----|------|
-| Portofolio   |                       |    |      |
-| React Native |                       |    |      |
-|              | Webpack configuration |    |      |
+|--------------|-----------------------|-------|---------|
+| Portofolio   |                       |       |         |
+|              | React Native          |       |         |
+|              | Flutter               |       |         |
+|              |                       | Webpack configuration |  |
