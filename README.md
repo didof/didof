@@ -23,6 +23,10 @@
 - [🪓 How to split dev/prod webpack configuration](https://dev.to/didof/how-to-split-dev-prod-webpack-configuration-n53)
 <!-- BLOG-POST-LIST:END -->
 
+| 🦅 Languages | 🐉 GitHub Stats |
+|:-:|-|
+| <img align="center" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=didof&theme=vision-friendly-dark" /> | <img align="center" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true&hide_title=true&theme=vision-friendly-dark" /> |
+
 ### 🦅 Languages
 <img align="left" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=didof&theme=vision-friendly-dark" />
 
