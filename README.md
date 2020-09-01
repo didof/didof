@@ -1,11 +1,12 @@
 ### Hello there, I'm Franco - aka didof
 
+<div style="position: float">
 ## I am an happily committed self-taught coder
 - 📚 I'm currently learning [Flutter](https://flutter.dev/docs)
 - 🐥 I'm looking for a Junior Developer positon
 - ⛳ Next Goal: consolidate my knowledge about Mobile Development & transcribe it in post
 - 🥳 Fun Fact: I love to 🐎 run, 🐧 swim, 🐐 go trekking
-
+</div>
 
 | 📡 Connect with me | |
 |:-:|-|
