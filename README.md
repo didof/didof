@@ -24,7 +24,7 @@
 <!-- BLOG-POST-LIST:END -->
 
 ### 🦅 Languages
-<img align="left" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=didof" />
+<img align="left" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=didof&theme=vision-friendly-dark" />
 
 ### 🐉 GitHub Stats
 <img align="right" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true&hide_title=true&theme=vision-friendly-dark" />
