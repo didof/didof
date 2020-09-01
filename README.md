@@ -4,7 +4,6 @@
 - 📚 I'm currently learning [Flutter](https://flutter.dev/docs)
 - 🐥 I'm looking for a Junior Developer positon
 - ⛳ Next Goal: consolidate my knowledge about Mobile Development & transcribe it in post
-- 💬 Ask me about: Javascript, React, Next.js, Svelte & Sapper, Node.js & Express.js
 - 🥳 Fun Fact: I love to 🐎 run, 🐧 swim, 🐐 go trekking
 
 ### 📡 Connect with me:
@@ -24,8 +23,11 @@
 - [🪓 How to split dev/prod webpack configuration](https://dev.to/didof/how-to-split-dev-prod-webpack-configuration-n53)
 <!-- BLOG-POST-LIST:END -->
 
+### 🦅 Languages
+<img align="left" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=didof" />
+
 ### 🐉 GitHub Stats
-<img align="left" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true&hide_title=true)](https://github.com/anuraghazra/github-readme-stats" />
+<img align="left" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true&hide_title=true&theme=dark" />
 
 [1]: https://twitter.com/did0f
 [2]: https://www.linkedin.com/in/francesco-di-donato-2a9836183/
