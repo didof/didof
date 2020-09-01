@@ -24,12 +24,12 @@
 <!-- BLOG-POST-LIST:END -->
 
 
-🦅 Languages
+### 🦅 Languages
 <img align="center" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=didof&theme=synthwave" />
 
 
 
-🐉 GitHub Stats
+### 🐉 GitHub Stats
 <img align="center" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true&hide_title=true&theme=synthwave" />
 
 
