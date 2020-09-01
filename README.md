@@ -1,6 +1,6 @@
 ### Hello there, I'm Franco - aka didof
 
-<div style="position: float; left: 0">
+<div style="width: 70%;">
 ## I am an happily committed self-taught coder
 - 📚 I'm currently learning [Flutter](https://flutter.dev/docs)
 - 🐥 I'm looking for a Junior Developer positon
@@ -8,7 +8,7 @@
 - 🥳 Fun Fact: I love to 🐎 run, 🐧 swim, 🐐 go trekking
 </div>
 
-<div style="position: float; right: 0">
+<div style="width: 30%;">
 | 📡 Connect with me | |
 |:-:|-|
 | Twitter | [![twitter](https://user-images.githubusercontent.com/57268193/91836573-4276b680-ec4b-11ea-8fad-e839de8bf49f.png)][1] |
