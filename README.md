@@ -3,7 +3,7 @@
 ## I am an happily committed self-taught coder
 - 📚 I'm currently learning [Flutter](https://flutter.dev/docs)
 - 🐥 I'm looking for a Junior Developer positon
-- ⛳ Next Goal: consolidate my knowledge about Mobile Development & transcribe it in post
+- ⛳ Next Goal: consolidate my knowledge about Mobile Development & transcribe it in posts
 - 🥳 Fun Fact: I love to 🐎 run, 🐧 swim, 🐐 go trekking
 
 ### 📡 Connect with me
