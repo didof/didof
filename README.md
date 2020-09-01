@@ -19,6 +19,11 @@
 
 ### 📑 Latest Blog Posts:
 <!-- BLOG-POST-LIST:START -->
+- [✏ Handle CSS in webpack | Extract CSS](https://dev.to/didof/handle-css-in-webpack-extract-css-3i4g)
+- [✏ Handle CSS in webpack | Inline CSS](https://dev.to/didof/handle-css-in-webpack-inline-css-fho)
+- [🖌 Handle CSS in webpack | Index](https://dev.to/didof/handle-css-in-webpack-index-34kj)
+- [☯ Intuitive dev/prod webpack configuration](https://dev.to/didof/intuitive-dev-prod-webpack-configuration-iml)
+- [🪓 How to split dev/prod webpack configuration](https://dev.to/didof/how-to-split-dev-prod-webpack-configuration-n53)
 <!-- BLOG-POST-LIST:END -->
 
 [1]: https://twitter.com/did0f
