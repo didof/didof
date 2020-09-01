@@ -7,7 +7,7 @@
 - 💬 Ask me about: Javascript, React, Next.js, Svelte & Sapper, Node.js & Express.js
 - 🥳 Fun Fact: I love to 🐎 run, 🐧 swim, 🐐 go trekking
 
-<center>♥ ♦ ♣ ♠</center>
+---
 
 ### 📡 Connect with me:
 [![twitter](https://user-images.githubusercontent.com/57268193/91836573-4276b680-ec4b-11ea-8fad-e839de8bf49f.png)][1]
