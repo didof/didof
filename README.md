@@ -22,18 +22,9 @@
 <!-- BLOG-POST-LIST:END -->
 
 
-
 | 🦅 Languages &nbsp; | 🐉 GitHub Stats &nbsp; |
 |:-:|-|
 | <img align="center" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=didof&theme=synthwave" /> | <img align="center" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true&hide_title=true&theme=synthwave" /> |
-| 📡 Connect with me | 📑 Latest Blog Posts: |
-| [![twitter](https://user-images.githubusercontent.com/57268193/91836573-4276b680-ec4b-11ea-8fad-e839de8bf49f.png)][1] Linkedin [![linkedin](https://user-images.githubusercontent.com/57268193/91836629-5ae6d100-ec4b-11ea-93b9-16711cb26086.png)][2] | <!-- BLOG-POST-LIST:START -->
-- [✏ Handle CSS in webpack | Extract CSS](https://dev.to/didof/handle-css-in-webpack-extract-css-3i4g)
-- [✏ Handle CSS in webpack | Inline CSS](https://dev.to/didof/handle-css-in-webpack-inline-css-fho)
-- [🖌 Handle CSS in webpack | Index](https://dev.to/didof/handle-css-in-webpack-index-34kj)
-- [☯ Intuitive dev/prod webpack configuration](https://dev.to/didof/intuitive-dev-prod-webpack-configuration-iml)
-- [🪓 How to split dev/prod webpack configuration](https://dev.to/didof/how-to-split-dev-prod-webpack-configuration-n53)
-<!-- BLOG-POST-LIST:END --> |
 
 
 [1]: https://twitter.com/did0f
