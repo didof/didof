@@ -24,7 +24,7 @@
 - [🪓 How to split dev/prod webpack configuration](https://dev.to/didof/how-to-split-dev-prod-webpack-configuration-n53)
 <!-- BLOG-POST-LIST:END -->
 
-<img align="left" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
+<img align="left" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats" />
 
 [1]: https://twitter.com/did0f
 [2]: https://www.linkedin.com/in/francesco-di-donato-2a9836183/
