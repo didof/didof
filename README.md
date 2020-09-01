@@ -24,10 +24,10 @@
 <!-- BLOG-POST-LIST:END -->
 
 ### 🦅 Languages
-<img align="left" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=didof" />
+<img align="left" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=didof&layout=compact" />
 
 ### 🐉 GitHub Stats
-<img align="left" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true&hide_title=true&theme=dark" />
+<img align="right" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true&hide_title=true&theme=vision-friendly-dark" />
 
 [1]: https://twitter.com/did0f
 [2]: https://www.linkedin.com/in/francesco-di-donato-2a9836183/
