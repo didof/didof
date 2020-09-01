@@ -24,9 +24,13 @@
 <!-- BLOG-POST-LIST:END -->
 
 
-| 🦅 Languages &nbsp; | 🐉 GitHub Stats &nbsp; |
-|:-:|-|
-| <img align="center" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=didof&theme=synthwave" /> | <img align="center" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true&hide_title=true&theme=synthwave" /> |
+🦅 Languages
+<img align="center" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=didof&theme=synthwave" />
+
+
+
+🐉 GitHub Stats
+<img align="center" alt="didof's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=didof&show_icons=true&hide_border=true&hide_title=true&theme=synthwave" />
 
 
 [1]: https://twitter.com/did0f
