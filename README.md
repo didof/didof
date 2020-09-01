@@ -7,9 +7,18 @@
 - 💬 Ask me about: Javascript, React, Next.js, Svelte & Sapper, Node.js & Express.js
 - 🥳 Fun Fact: I love to 🐎 run, 🐧 swim, 🐐 go trekking
 
+<br/>
+
 ### 📡 Connect with me:
 [1]: https://twitter.com/did0f
 [2]: https://www.linkedin.com/in/francesco-di-donato-2a9836183/
+
+<br/>
+
+### 📑 Latest Blog Posts:
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 
 [![twitter](https://user-images.githubusercontent.com/57268193/91836573-4276b680-ec4b-11ea-8fad-e839de8bf49f.png)][1]
 [![linkedin](https://user-images.githubusercontent.com/57268193/91836629-5ae6d100-ec4b-11ea-93b9-16711cb26086.png)][2]
