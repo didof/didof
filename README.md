@@ -6,7 +6,7 @@
 - ⛳ Next Goal: consolidate my knowledge about Mobile Development & transcribe it in post
 - 🥳 Fun Fact: I love to 🐎 run, 🐧 swim, 🐐 go trekking
 
-### 📡 Connect with me
+
 | 📡 Connect with me | |
 |:-:|-|
 | Twitter | [![twitter](https://user-images.githubusercontent.com/57268193/91836573-4276b680-ec4b-11ea-8fad-e839de8bf49f.png)][1] |
