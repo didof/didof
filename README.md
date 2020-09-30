@@ -16,11 +16,11 @@
 
 ### 📑 Latest Blog Posts:
 <!-- BLOG-POST-LIST:START -->
+- [How to build a CustomScaffold with alternative build methods in Flutter](https://dev.to/didof/how-to-build-a-customscaffold-with-alternative-build-methods-in-flutter-30c4)
 - [✏ Handle CSS in webpack | Extract CSS](https://dev.to/didof/handle-css-in-webpack-extract-css-3i4g)
 - [✏ Handle CSS in webpack | Inline CSS](https://dev.to/didof/handle-css-in-webpack-inline-css-fho)
 - [🖌 Handle CSS in webpack | Index](https://dev.to/didof/handle-css-in-webpack-index-34kj)
 - [☯ Intuitive dev/prod webpack configuration](https://dev.to/didof/intuitive-dev-prod-webpack-configuration-iml)
-- [🪓 How to split dev/prod webpack configuration](https://dev.to/didof/how-to-split-dev-prod-webpack-configuration-n53)
 <!-- BLOG-POST-LIST:END -->
 
 
