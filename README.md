@@ -16,11 +16,11 @@
 
 ### 📑 Latest Blog Posts:
 <!-- BLOG-POST-LIST:START -->
+- [Git & GitHub made simple -  branching and PR](https://dev.to/didof/git-github-made-simple-branching-and-pr-37l9)
 - [Git & GitHub made simple - two workflows to project setup](https://dev.to/didof/github-made-simple-two-workflows-to-project-setup-4e3c)
 - [How to build a CustomScaffold with alternative build methods in Flutter](https://dev.to/didof/how-to-build-a-customscaffold-with-alternative-build-methods-in-flutter-30c4)
 - [✏ Handle CSS in webpack | Extract CSS](https://dev.to/didof/handle-css-in-webpack-extract-css-3i4g)
 - [✏ Handle CSS in webpack | Inline CSS](https://dev.to/didof/handle-css-in-webpack-inline-css-fho)
-- [🖌 Handle CSS in webpack | Index](https://dev.to/didof/handle-css-in-webpack-index-34kj)
 <!-- BLOG-POST-LIST:END -->
 
 
