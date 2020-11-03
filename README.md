@@ -16,11 +16,11 @@
 
 ### 📑 Latest Blog Posts:
 <!-- BLOG-POST-LIST:START -->
+- [Compact Guide to Time Travel with Git 🔙](https://dev.to/didof/compact-guide-to-time-travel-with-git-302p)
 - [Git & GitHub made simple - Undoing commits](https://dev.to/didof/git-github-made-simple-undoing-commits-1gc)
 - [Git & GitHub made simple - Resolving merge conflicts](https://dev.to/didof/git-github-made-simple-resolving-merge-conflicts-5ha7)
 - [Git & GitHub made simple -  Branching and PR](https://dev.to/didof/git-github-made-simple-branching-and-pr-37l9)
 - [Git & GitHub made simple - Two workflows to project setup](https://dev.to/didof/github-made-simple-two-workflows-to-project-setup-4e3c)
-- [How to build a CustomScaffold with alternative build methods in Flutter](https://dev.to/didof/how-to-build-a-customscaffold-with-alternative-build-methods-in-flutter-30c4)
 <!-- BLOG-POST-LIST:END -->
 
 
