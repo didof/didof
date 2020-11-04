@@ -16,7 +16,7 @@
 
 ### 📑 Latest Blog Posts:
 <!-- BLOG-POST-LIST:START -->
-- [Compact Guide to Time Travel with Git 🔙](https://dev.to/didof/compact-guide-to-time-travel-with-git-302p)
+- [Compact Guide to Time Travel with Git 🔙 - I](https://dev.to/didof/compact-guide-to-time-travel-with-git-302p)
 - [Git & GitHub made simple - Undoing commits](https://dev.to/didof/git-github-made-simple-undoing-commits-1gc)
 - [Git & GitHub made simple - Resolving merge conflicts](https://dev.to/didof/git-github-made-simple-resolving-merge-conflicts-5ha7)
 - [Git & GitHub made simple -  Branching and PR](https://dev.to/didof/git-github-made-simple-branching-and-pr-37l9)
