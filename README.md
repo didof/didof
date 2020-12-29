@@ -1,9 +1,9 @@
 ### Hello there, I'm Franco - aka didof
 
 ## I am an happily committed self-taught coder
-- 📚 I'm currently learning [dart](https://dart.dev/) & [Flutter](https://flutter.dev/docs)
-- 🐥 I'm looking for a Junior Developer positon
-- ⛳ Next Goal: consolidate my knowledge about Mobile Development & transcribe it in posts
+- 📚 I'm currently learning Linux and shell in general
+- 🐥 I am a Frontend Software Engineer
+- ⛳ Next Goal: consolidate my knowledge about Linux world
 - 🥳 Fun Fact: I love to 🐎 run, 🐧 swim, 🐐 go trekking
 
 ### 📡 Connect with me
