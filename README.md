@@ -16,11 +16,11 @@
 
 ### 📑 Latest Blog Posts:
 <!-- BLOG-POST-LIST:START -->
+- [Render Props [1] - Grid Layout](https://dev.to/didof/render-props-1-grid-layout-4mo6)
 - [Singleton logger that works only in development mode](https://dev.to/didof/singleton-logger-that-works-only-in-development-mode-1anf)
 - [Compact Guide to Time Travel with Git 🔙 - I](https://dev.to/didof/compact-guide-to-time-travel-with-git-302p)
 - [Git & GitHub made simple - Undoing commits](https://dev.to/didof/git-github-made-simple-undoing-commits-1gc)
 - [Git & GitHub made simple - Resolving merge conflicts](https://dev.to/didof/git-github-made-simple-resolving-merge-conflicts-5ha7)
-- [Git & GitHub made simple -  Branching and PR](https://dev.to/didof/git-github-made-simple-branching-and-pr-37l9)
 <!-- BLOG-POST-LIST:END -->
 
 
