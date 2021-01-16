@@ -16,11 +16,11 @@
 
 ### 📑 Latest Blog Posts:
 <!-- BLOG-POST-LIST:START -->
-- [React Render Props with Ts & styled-components | Part I](https://dev.to/didof/render-props-1-grid-layout-4mo6)
+- [React Render Props with Ts & styled-components | Part 2](https://dev.to/didof/react-render-props-with-ts-styled-components-part-2-4n84)
+- [React Render Props with Ts & styled-components | Part 1](https://dev.to/didof/render-props-1-grid-layout-4mo6)
 - [Singleton logger that works only in development mode](https://dev.to/didof/singleton-logger-that-works-only-in-development-mode-1anf)
 - [Compact Guide to Time Travel with Git 🔙 - I](https://dev.to/didof/compact-guide-to-time-travel-with-git-302p)
 - [Git & GitHub made simple - Undoing commits](https://dev.to/didof/git-github-made-simple-undoing-commits-1gc)
-- [Git & GitHub made simple - Resolving merge conflicts](https://dev.to/didof/git-github-made-simple-resolving-merge-conflicts-5ha7)
 <!-- BLOG-POST-LIST:END -->
 
 
