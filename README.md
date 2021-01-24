@@ -1,10 +1,10 @@
 ### Hello there, I'm Franco - aka didof
 
 ## I am an happily committed self-taught coder
-- 📚 I'm currently learning Linux and shell in general
-- 🐥 I am a Frontend Software Engineer
-- ⛳ Next Goal: consolidate my knowledge about Linux world
-- 🥳 Fun Fact: I love to 🐎 run, 🐧 swim, 🐐 go trekking
+- 📚 I'm currently learning **Microservices architectures**, thus **k8s** & **docker**
+- 🐥 I am a *Frontend Software Engineer* but i have a secret and passionate relationship with the **Backend**
+- ⛳ Next Goal: consolidate my knowledge about **Linux** world
+- 🥳 Fun Fact: I can swim fast - challenge me.
 
 ### 📡 Connect with me
 [![twitter](https://user-images.githubusercontent.com/57268193/91836573-4276b680-ec4b-11ea-8fad-e839de8bf49f.png)][1]
