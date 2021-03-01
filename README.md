@@ -16,7 +16,7 @@
 
 ### 📑 Latest Blog Posts:
 <!-- BLOG-POST-LIST:START -->
-- [React Design Pattern - Assemblable Card](https://dev.to/didof/react-design-pattern-assemblable-card-3b44)
+- [React Design Pattern - Assemblable Card [1]](https://dev.to/didof/react-design-pattern-assemblable-card-3b44)
 - [React Render Props with Ts & styled-components | Part 2](https://dev.to/didof/react-render-props-with-ts-styled-components-part-2-4n84)
 - [React Render Props with Ts & styled-components | Part 1](https://dev.to/didof/render-props-1-grid-layout-4mo6)
 - [Singleton logger that works only in development mode](https://dev.to/didof/singleton-logger-that-works-only-in-development-mode-1anf)
