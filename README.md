@@ -16,11 +16,11 @@
 
 ### 📑 Latest Blog Posts:
 <!-- BLOG-POST-LIST:START -->
+- [Lazy Loading Image - [2/2]](https://dev.to/didof/lazy-loading-image-2-2-36f1)
+- [Lazy Loading Image - [1/2]](https://dev.to/didof/lazy-loading-image-1-2-50hm)
+- [React Design Pattern -  Composable Card [2]](https://dev.to/didof/react-design-pattern-composable-card-2-318e)
 - [React Design Pattern - Assemblable Card [1]](https://dev.to/didof/react-design-pattern-assemblable-card-3b44)
 - [React Render Props with Ts & styled-components | Part 2](https://dev.to/didof/react-render-props-with-ts-styled-components-part-2-4n84)
-- [React Render Props with Ts & styled-components | Part 1](https://dev.to/didof/render-props-1-grid-layout-4mo6)
-- [Singleton logger that works only in development mode](https://dev.to/didof/singleton-logger-that-works-only-in-development-mode-1anf)
-- [Compact Guide to Time Travel with Git 🔙 - I](https://dev.to/didof/compact-guide-to-time-travel-with-git-302p)
 <!-- BLOG-POST-LIST:END -->
 
 
