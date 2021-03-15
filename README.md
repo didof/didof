@@ -1,8 +1,8 @@
 ### Hello there, I'm Franco - aka didof
 
 ## I am an happily committed self-taught coder
-- 📚 I'm currently learning **Microservices architectures**! I ❤️ **k8s** & **docker**
-- 🐥 I am a *Frontend Software Engineer* but i have a secret and passionate relationship with the **Backend**
+- 📚 I am currently building my **personal blog** using an *SEO-driven approach* with *Vue.js* (💚) & Nuxt.js (🚀)
+- 🐥 I am a *Frontend Software Engineer* but I have a secret and passionate relationship with the **Backend**
 - ⛳ Next Goal: consolidate my knowledge about **Linux** world
 - 🥳 Fun Fact: I can swim fast - challenge me.
 
