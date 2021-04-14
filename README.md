@@ -16,11 +16,11 @@
 
 ### 📑 Latest Blog Posts:
 <!-- BLOG-POST-LIST:START -->
+- [Applying slots in Vue for a Tabs component](https://dev.to/didof/applying-slots-in-vue-for-a-tabs-component-5642)
 - [Lazy Loading Image - [2/2]](https://dev.to/didof/lazy-loading-image-2-2-36f1)
 - [Lazy Loading Image - [1/2]](https://dev.to/didof/lazy-loading-image-1-2-50hm)
 - [React Design Pattern -  Composable Card [2]](https://dev.to/didof/react-design-pattern-composable-card-2-318e)
 - [React Design Pattern - Assemblable Card [1]](https://dev.to/didof/react-design-pattern-assemblable-card-3b44)
-- [React Render Props with Ts & styled-components | Part 2](https://dev.to/didof/react-render-props-with-ts-styled-components-part-2-4n84)
 <!-- BLOG-POST-LIST:END -->
 
 
