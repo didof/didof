@@ -16,11 +16,11 @@
 
 ### 📑 Latest Blog Posts:
 <!-- BLOG-POST-LIST:START -->
+- [Merge High Order Component and Compound Pattern](https://dev.to/didof/merge-high-order-component-and-compound-pattern-56e5)
 - [Iteratify - Make It Iterable](https://dev.to/didof/iteratify-make-it-iterable-4dgf)
 - [Applying slots in Vue for a Tabs component](https://dev.to/didof/applying-slots-in-vue-for-a-tabs-component-5642)
 - [Lazy Loading Image - [2/2]](https://dev.to/didof/lazy-loading-image-2-2-36f1)
 - [Lazy Loading Image - [1/2]](https://dev.to/didof/lazy-loading-image-1-2-50hm)
-- [React Design Pattern -  Composable Card [2]](https://dev.to/didof/react-design-pattern-composable-card-2-318e)
 <!-- BLOG-POST-LIST:END -->
 
 
