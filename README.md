@@ -14,7 +14,7 @@
 
 
 
-### 📑 Latest Blog Posts:
+### 📑 Latest [Blog Posts](https://dev.to/didof)
 <!-- BLOG-POST-LIST:START -->
 - [Penetration and Security in JavaScript](https://dev.to/didof/penetration-and-security-in-javascript-probing-double-getter-p47)
 - [Built-in-like Range in JavaScript](https://dev.to/didof/built-in-like-range-in-javascript-4ckj)
