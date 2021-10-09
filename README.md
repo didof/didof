@@ -1,6 +1,6 @@
-### Hello there, I'm Franco - aka didof
+# Ehi there, I'm didof
+## Happily committed self-taught Coder
 
-## I am an happily committed self-taught coder
 - 🧑🏼‍🤝‍🧑🏼 _Shared online knowledge_ allowed me to improve my life in a bad moment; that's why the thing I love most is [returning the favor](https://dev.to/didof)
 - 📚 I really enjoy diving into JavaScript internals, v8 and bytecode stuff
 - 💚 I like to build beautiful and intuitive _websites_ with **Vue + Nuxt**, or with **React and Next**
