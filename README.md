@@ -1,9 +1,9 @@
 ### Hello there, I'm Franco - aka didof
 
 ## I am an happily committed self-taught coder
-- 📚 I am currently building my **personal blog** using an *SEO-driven approach* with *Vue.js* (💚) & Nuxt.js (🚀)
-- 🐥 I am a *Frontend Software Engineer* but I have a secret and passionate relationship with the **Backend**
-- ⛳ Next Goal: consolidate my knowledge about **Linux** world
+- 🧑🏼‍🤝‍🧑🏼 _Shared online knowledge_ allowed me to improve my life in a bad moment; that's why the thing I love most is [returning the favor](https://dev.to/didof)
+- 📚 I really enjoy diving into JavaScript internals, v8 and bytecode stuff
+- 💚 I like to build beautiful and intuitive _websites_ with **Vue + Nuxt**, or with **React and Next**
 - 🥳 Fun Fact: I can swim fast - challenge me.
 
 
