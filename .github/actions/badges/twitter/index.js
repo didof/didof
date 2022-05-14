@@ -45,7 +45,7 @@ run(async () => {
     })
     if (err2) {
         core.debug(err2)
-        core.setFailed(err2.message)
+        core.setFailed(err2)
     }
 
     console.log(JSON.stringify(updated, null, 4))
