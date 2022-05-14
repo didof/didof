@@ -20,25 +20,20 @@ run(async () => {
         core.setFailed(err1.message)
     }
 
-    const { encoding, content } = readme.data
+    const { encoding, content, name: filename, sha } = readme.data
 
     const url = `[https://badgen.net/twitter/follow/${handle}](https://twitter.com/${handle})`
 
     const updatedContent = content.concat(Buffer.from(url, 'utf8').toString(encoding))
 
-    console.log(updatedContent)
-
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
     const [err2, updated] = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
         owner,
         repo,
-        path: 'README.md',
+        path: filename,
         message: 'update: twitter handle ${new Date().toTimeString()}',
-        committer: {
-            name: 'Francesco Di Donato',
-            email: 'didonato.fr@gmail.com'
-        },
-        content: updatedContent
+        content: updatedContent,
+        sha
     })
     if (err2) {
         core.debug(err2)
