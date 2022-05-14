@@ -38,7 +38,7 @@ run(async () => {
     const [err2, updated] = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
         owner,
         repo,
-        path,
+        path: 'test.md',
         message: '(Automated) Update README.md',
         content: updatedContent,
         sha
