@@ -26,6 +26,8 @@ run(async () => {
 
     const updatedContent = content.concat(Buffer.from(url, 'utf8').toString(encoding))
 
+    console.log(updatedContent)
+
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
     const [err2, updated] = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
         owner,
@@ -38,6 +40,8 @@ run(async () => {
         core.debug(err2)
         core.setFailed(err2.message)
     }
+
+    console.log(JSON.stringify(updated, null, 4))
 
     console.log(`See the changes ${updated.content.url}`)
 })
