@@ -26,12 +26,18 @@ run(async () => {
 
     const updatedContent = content.concat(Buffer.from(url, 'utf8').toString(encoding))
 
+    console.log(updatedContent)
+    console.log(owner)
+    console.log(repo)
+    console.log(filename)
+    console.log(sha)
+
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
     const [err2, updated] = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
         owner,
         repo,
         path: filename,
-        message: 'update: twitter handle ${new Date().toTimeString()}',
+        message: `update: twitter handle ${new Date().toTimeString()}`,
         content: updatedContent,
         sha
     })
