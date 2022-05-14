@@ -1,0 +1,19 @@
+name: "test"
+description: "test action"
+author: "didof <didonato.fr@gmail.com>"
+
+inputs:
+  readme_path:
+    description: "README.md path relative to project root"
+    required: false
+    default: "README.md"
+
+outputs:
+
+runs:
+  using: "node16"
+  main: "index.js"
+
+branding:
+  icon: "activity"
+  color: "green"

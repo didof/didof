@@ -1,5 +1,5 @@
-name: "test"
-description: "test action"
+name: "wait"
+description: "wait the specified amount of milliseconds"
 author: "didof <didonato.fr@gmail.com>"
 
 inputs:
