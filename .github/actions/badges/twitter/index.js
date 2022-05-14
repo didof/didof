@@ -1,8 +1,8 @@
 const core = require("@actions/core");
 const { Octokit } = require('@octokit/core')
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-const run = require('../_helpers/run')
-const to = require('../_helpers/to')
+const run = require('../../_helpers/run')
+const to = require('../../_helpers/to')
 
 run(async () => {
     const handle = core.getInput('handle')
