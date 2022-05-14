@@ -8,8 +8,6 @@ inputs:
     required: false
     default: "README.md"
 
-outputs:
-
 runs:
   using: "node16"
   main: "index.js"
