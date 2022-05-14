@@ -11,6 +11,6 @@ jobs:
       - name: Checkout repository code
         uses: actions/checkout@v3
       - name: wait
-        uses: ./.github/actions/wait
+        uses: ./.github/actions/wait.yml
         with:
           milliseconds: 3000
