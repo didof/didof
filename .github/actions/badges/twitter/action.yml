@@ -1,0 +1,20 @@
+name: "Twitter badge"
+description: "Update Twitter badge on README.md"
+author: "didof <didonato.fr@gmail.com>"
+
+inputs:
+  handle:
+    description: "Twitter handle - i.g. @did0f"
+    required: true
+
+outputs:
+  url:
+    description: "badgen.net generated badges url"
+
+runs:
+  using: "node16"
+  main: "index.js"
+
+branding:
+  icon: "twitter"
+  color: "blue"

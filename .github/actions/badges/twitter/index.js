@@ -5,13 +5,7 @@ const run = require('../_helpers/run')
 const to = require('../_helpers/to')
 
 run(async () => {
-    const twitterHandle = core.getInput('twitter_handle')
-
-    const badges = [twitterHandle]
-
-    if (badges.length === 0) {
-        core.setOutput('urls', [])
-    }
+    const handle = core.getInput('handle')
 
     const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/")
 
@@ -26,4 +20,6 @@ run(async () => {
     }
 
     console.log(JSON.stringify(readme, null, 4))
+
+    console.log(handle)
 })

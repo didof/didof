@@ -2,8 +2,13 @@ name: Badges
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 9 * * *"
+    inputs:
+      twitter_handle:
+        description: "Twitter handle"
+        required: false
+
+  # schedule:
+  #   - cron: "0 9 * * *"
 
 jobs:
   updateBadges:
@@ -13,8 +18,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Update badges
-        id: badges
-        uses: ./.github/actions/badges
-
-      - run: echo "The badges generated are ${{ steps.badges.outputs.urls }}"
+      - name: Update Twitter Badge
+        id: twitter-badge
+        if: github.event.inputs.twitter_handle != null
+        uses: ./.github/actions/badges/twitter
+        with:
+          handle: github.event.inputs.twitter_handle
