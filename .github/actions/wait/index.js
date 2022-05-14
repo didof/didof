@@ -1,5 +1,5 @@
 const core = require('@actions/core')
-const github = require('@actions/core')
+const github = require('@actions/github')
 
 const run = require('../_helpers/run')
 const sleep = require('../_helpers/sleep')
