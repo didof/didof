@@ -11,6 +11,8 @@ jobs:
       - name: Checkout repository code
         uses: actions/checkout@v3
       - name: wait
+        id: wait
         uses: ./.github/actions/wait
         with:
           milliseconds: 3000
+      - run: echo "After waiting, it was ${{ steps.wait.outputs.time }}"

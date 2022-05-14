@@ -1,5 +1,5 @@
 const core = require('@actions/core')
-// const github = require('@actions/core')
+const github = require('@actions/core')
 
 const run = require('../_helpers/run')
 const sleep = require('../_helpers/sleep')
@@ -12,7 +12,9 @@ run(async () => {
     await sleep(milliseconds)
 
     const time = new Date().toTimeString()
-    core.info('time', time)
+
+    const payload = JSON.stringify(github.context.payload, undefined, 2)
+    console.log(`Event payload: ${payload}`);
 
     core.setOutput('time', time)
 })
