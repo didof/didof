@@ -14,7 +14,7 @@ outputs:
 
 runs:
   using: 'node16'
-  main: 'actions/wait.js'
+  main: 'index.js'
 
 branding:
   icon: 'activity'  

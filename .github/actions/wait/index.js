@@ -1,8 +1,8 @@
 const core = require('@actions/core')
-const github = require('@actions/core')
+// const github = require('@actions/core')
 
-const run = require('./_helpers/run')
-const sleep = require('./_helpers/sleep')
+const run = require('../_helpers/run')
+const sleep = require('../_helpers/sleep')
 
 run(async () => {
     const milliseconds = core.getInput('milliseconds')
