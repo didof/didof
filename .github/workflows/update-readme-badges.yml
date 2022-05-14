@@ -1,9 +1,8 @@
 name: Update README Badges
-description: update napkin.io generated badges
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
