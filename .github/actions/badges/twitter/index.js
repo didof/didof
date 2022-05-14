@@ -34,6 +34,10 @@ run(async () => {
         repo,
         path: 'README.md',
         message: 'update: twitter handle ${new Date().toTimeString()}',
+        committer: {
+            name: 'Francesco Di Donato',
+            email: 'didonato.fr@gmail.com'
+        },
         content: updatedContent
     })
     if (err2) {
