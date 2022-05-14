@@ -1,0 +1,20 @@
+name: "Badges"
+description: "Update badges on README.md"
+author: "didof <didonato.fr@gmail.com>"
+
+inputs:
+  twitter_handle:
+    description: "Twitter handle - i.g. @did0f"
+    required: false
+
+outputs:
+  urls:
+    description: "List of badgen.net generated badges urls"
+
+runs:
+  using: "node16"
+  main: "index.js"
+
+branding:
+  icon: "activity"
+  color: "green"
