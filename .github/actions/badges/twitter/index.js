@@ -16,7 +16,7 @@ run(async () => {
         repo,
     }))
     if (err1) {
-        console.error(err1)
+        core.debug(err1)
         core.setFailed(err1.message)
     }
 
@@ -35,7 +35,7 @@ run(async () => {
         content: updatedContent
     })
     if (err2) {
-        console.error(err2)
+        core.debug(err2)
         core.setFailed(err2.message)
     }
 
