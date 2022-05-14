@@ -20,32 +20,37 @@ run(async () => {
         core.setFailed(err1.message)
     }
 
-    const { encoding, content, url, sha } = readme.data
-
-    const path = url.split('/').pop()
+    const { encoding, content, name, sha } = readme.data
 
     const badge = `[https://badgen.net/twitter/follow/${handle}](https://twitter.com/${handle})`
-
     const updatedContent = content.concat(Buffer.from(badge, 'utf8').toString(encoding))
 
     console.log(updatedContent)
     console.log(owner)
     console.log(repo)
-    console.log(path)
+    console.log(name)
     console.log(sha)
 
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
     const [err2, updated] = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
         owner,
         repo,
-        path: 'test.md',
+        path: name,
         message: '(Automated) Update README.md',
         content: updatedContent,
-        sha
+        sha,
+        committer: {
+            name: 'Monalisa Octocat',
+            email: 'octocat@github.com'
+        },
+        author: {
+            name: 'Monalisa Octocat',
+            email: 'octocat@github.com'
+        },
     })
     if (err2) {
-        core.debug(err2)
-        core.setFailed(err2)
+        console.error('Failed PUT', JSON.stringify(err2, null, 4))
+        core.setFailed('Failed PUT', err2.message)
     }
 
     console.log(JSON.stringify(updated, null, 4))
