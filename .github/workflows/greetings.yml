@@ -1,13 +1,11 @@
-name: Update README Badges
+name: Greetings
 
 on:
-  schedule:
-    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
-  twitter:
-    name: Update Twitter badge
+  greet:
+    name: Greet
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
