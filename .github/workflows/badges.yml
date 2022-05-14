@@ -23,4 +23,4 @@ jobs:
         if: github.event.inputs.twitter_handle != null
         uses: ./.github/actions/badges/twitter
         with:
-          handle: github.event.inputs.twitter_handle
+          handle: ${{github.event.inputs.twitter_handle}}
