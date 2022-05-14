@@ -1,9 +1,9 @@
 name: Badges
 
 on:
-  worflow_dispatch:
+  workflow_dispatch:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: "0 9 * * *"
 
 jobs:
   updateTwitterBadge:
