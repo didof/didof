@@ -22,5 +22,7 @@ jobs:
         id: twitter-badge
         if: github.event.inputs.twitter_handle != null
         uses: ./.github/actions/badges/twitter
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           handle: ${{github.event.inputs.twitter_handle}}

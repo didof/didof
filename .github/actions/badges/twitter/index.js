@@ -4,7 +4,7 @@ const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const run = require('../../_helpers/run')
 const to = require('../../_helpers/to')
 
-console.log(process.env.GITHUB_TOKEN)
+console.log('token', process.env.GITHUB_TOKEN)
 
 run(async () => {
     let handle = core.getInput('handle')
@@ -27,12 +27,6 @@ run(async () => {
     const badge = `[https://badgen.net/twitter/follow/${handle}](https://twitter.com/${handle})`
     const updatedContent = content.concat(Buffer.from(badge, 'utf8').toString(encoding))
 
-    console.log(updatedContent)
-    console.log(owner)
-    console.log(repo)
-    console.log(name)
-    console.log(sha)
-
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
     const [err2, updated] = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
         owner,
@@ -41,14 +35,6 @@ run(async () => {
         message: '(Automated) Update README.md',
         content: updatedContent,
         sha,
-        committer: {
-            name: 'Monalisa Octocat',
-            email: 'octocat@github.com'
-        },
-        author: {
-            name: 'Monalisa Octocat',
-            email: 'octocat@github.com'
-        },
     })
     if (err2) {
         console.error('Failed PUT', JSON.stringify(err2, null, 4))
