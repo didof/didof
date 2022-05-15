@@ -27,14 +27,9 @@ run(async () => {
     }
 
     const { encoding, content, name, sha } = readme.data
-
-    const badge = `https://badgen.net/twitter/follow/${handle}`
-    const url = `https://twitter.com/${handle}`
-    const template = `[${badge}](${url})`
-    const updatedContent = content.concat(Buffer.from(template, 'utf8').toString(encoding))
-
-    console.log(encoding)
-    console.log(updatedContent)
+    
+    const badge = `![https://badgen.net/twitter/follow/${handle}](https://twitter.com/${handle})`
+    const updatedContent = content.concat(Buffer.from(badge, 'utf8').toString(encoding))
 
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
     const [err2, updated] = await to(octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
@@ -53,8 +48,5 @@ run(async () => {
     }
 
     console.log(`See the changes ${updated.data.content.url}`)
-
-    core.setOutput('badge', badge)
-    core.setOutput('url', url)
 
 })
