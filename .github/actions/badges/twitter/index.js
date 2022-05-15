@@ -4,6 +4,8 @@ const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const run = require('../../_helpers/run')
 const to = require('../../_helpers/to')
 
+console.log(process.env.GITHUB_TOKEN)
+
 run(async () => {
     let handle = core.getInput('handle')
     if (handle.startsWith('@')) handle.substring(1)
