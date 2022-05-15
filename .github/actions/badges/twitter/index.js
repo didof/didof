@@ -28,6 +28,8 @@ run(async () => {
 
     const { encoding, content, name, sha } = readme.data
 
+    console.log(content)
+
     const decoded = atob(content)
 
     console.log('decoded', decoded)
