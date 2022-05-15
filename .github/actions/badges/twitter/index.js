@@ -29,7 +29,7 @@ run(async () => {
 
     const badge = `https://badgen.net/twitter/follow/${handle}`
     const url = `https://twitter.com/${handle}`
-    const template = `![${badge}](${url})`
+    const template = `[${badge}](${url})`
     const updatedContent = content.concat(Buffer.from(template, 'utf8').toString(encoding))
 
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
