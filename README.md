@@ -27,7 +27,3 @@
 #### 📡 Connect with me [![twitter](https://user-images.githubusercontent.com/57268193/91836573-4276b680-ec4b-11ea-8fad-e839de8bf49f.png)][1] or [![linkedin](https://user-images.githubusercontent.com/57268193/91836629-5ae6d100-ec4b-11ea-93b9-16711cb26086.png)][2]
 <!-- [![gmail](https://user-images.githubusercontent.com/57268193/91836814-971a3180-ec4b-11ea-8495-e4509226d96f.png)][3] -->
 <!-- [![youtube](https://user-images.githubusercontent.com/57268193/91836592-4d314b80-ec4b-11ea-9268-a02b0d16cded.png)][4] -->
-
-
-
-[https://badgen.net/twitter/follow/@didof](https://twitter.com/@didof)
