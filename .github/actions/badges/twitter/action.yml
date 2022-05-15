@@ -6,9 +6,6 @@ inputs:
   handle:
     description: "Twitter handle - i.g. @did0f"
     required: true
-  repo_token:
-    description: "Repository token"
-    required: true
 
 outputs:
   url:

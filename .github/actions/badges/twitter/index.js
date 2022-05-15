@@ -10,6 +10,8 @@ run(async () => {
     let handle = core.getInput('handle')
     if (handle.startsWith('@')) handle.substring(1)
 
+    console.log(process.env.GITHUB_REPOSITORY)
+
     const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/")
 
     // https://docs.github.com/en/rest/repos/contents#get-a-repository-readme
