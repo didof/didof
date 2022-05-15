@@ -30,13 +30,10 @@ run(async () => {
 
     const decoded = atob(content.replace(/\s/g, ''))
 
-    console.log('decoded', decoded)
 
     const badge = `![https://badgen.net/twitter/follow/${handle}](https://twitter.com/${handle})`
 
     const encoded = Buffer.from(decoded.concat(badge), 'utf8').toString(encoding)
-
-    console.log('encoded', encoded)
 
 
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
@@ -45,7 +42,7 @@ run(async () => {
         repo,
         path: name,
         message: '(Automated) Update README.md',
-        content: updatedContent,
+        content: encoded,
         sha,
     }))
     if (err2) {
