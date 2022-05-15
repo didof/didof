@@ -4,9 +4,13 @@ const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const run = require('../../_helpers/run')
 const to = require('../../_helpers/to')
 
+console.log('token', process.env.GITHUB_TOKEN)
+
 run(async () => {
     let handle = core.getInput('handle')
     if (handle.startsWith('@')) handle = handle.substring(1)
+
+    console.log(process.env.GITHUB_REPOSITORY)
 
     const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/")
 
@@ -22,14 +26,18 @@ run(async () => {
         return
     }
 
-    const { content, name, sha } = readme.data
+    const { encoding, content, name, sha } = readme.data
 
     const decoded = atob(content)
-    
-    const badge = `\![https://badgen.net/twitter/follow/${handle}](https://twitter.com/${handle})`
-    const encoded = btoa(decoded.concat(badge))
 
-    console.log(encoded)
+    console.log('decoded', decoded)
+
+    const badge = `![https://badgen.net/twitter/follow/${handle}](https://twitter.com/${handle})`
+
+    const encoded = Buffer.from(decoded.concat(badge), 'utf8').toString(encoding)
+
+    console.log('encoded', encoded)
+
 
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
     const [err2, updated] = await to(octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
@@ -37,7 +45,7 @@ run(async () => {
         repo,
         path: name,
         message: '(Automated) Update README.md',
-        content: encoded,
+        content: updatedContent,
         sha,
     }))
     if (err2) {
