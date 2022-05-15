@@ -26,10 +26,12 @@ run(async () => {
         return
     }
 
-    const { encoding, content, name, sha } = readme.data
+    const { content, name, sha } = readme.data
+
+    const decoded = atob(content)
     
     const badge = `![https://badgen.net/twitter/follow/${handle}](https://twitter.com/${handle})`
-    const updatedContent = content.concat(Buffer.from(badge, 'utf8').toString(encoding))
+    const encoded = btoa(decoded.concat(badge))
 
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
     const [err2, updated] = await to(octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
@@ -37,7 +39,7 @@ run(async () => {
         repo,
         path: name,
         message: '(Automated) Update README.md',
-        content: updatedContent,
+        content: encoded,
         sha,
     }))
     if (err2) {
