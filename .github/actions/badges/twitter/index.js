@@ -8,7 +8,7 @@ console.log('token', process.env.GITHUB_TOKEN)
 
 run(async () => {
     let handle = core.getInput('handle')
-    if (handle.startsWith('@')) handle.substring(1)
+    if (handle.startsWith('@')) handle = handle.substring(1)
 
     console.log(process.env.GITHUB_REPOSITORY)
 
@@ -27,8 +27,10 @@ run(async () => {
 
     const { encoding, content, name, sha } = readme.data
 
-    const badge = `[https://badgen.net/twitter/follow/${handle}](https://twitter.com/${handle})`
-    const updatedContent = content.concat(Buffer.from(badge, 'utf8').toString(encoding))
+    const badge = `https://badgen.net/twitter/follow/${handle}`
+    const url = `https://twitter.com/${handle}`
+    const template = `![${badge}](${url})`
+    const updatedContent = content.concat(Buffer.from(template, 'utf8').toString(encoding))
 
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
     const [err2, updated] = await to(octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
@@ -45,7 +47,9 @@ run(async () => {
         core.setFailed('Failed PUT', err2.message)
     }
 
-    console.log(JSON.stringify(updated, null, 4))
+    console.log(`See the changes ${updated.data.content.url}`)
 
-    console.log(`See the changes ${updated.content.url}`)
+    core.setOutput('badge', badge)
+    core.setOutput('url', url)
+
 })

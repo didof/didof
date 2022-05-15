@@ -8,8 +8,10 @@ inputs:
     required: true
 
 outputs:
+  badge:
+    description: "badgen.net generated badge url"
   url:
-    description: "badgen.net generated badges url"
+    description: "twitter account url"
 
 runs:
   using: "node16"
