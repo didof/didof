@@ -29,6 +29,8 @@ run(async () => {
     const badge = `\![https://badgen.net/twitter/follow/${handle}](https://twitter.com/${handle})`
     const encoded = btoa(decoded.concat(badge))
 
+    console.log(encoded)
+
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
     const [err2, updated] = await to(octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
         owner,
