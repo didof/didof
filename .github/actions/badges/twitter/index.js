@@ -30,26 +30,15 @@ run(async () => {
     const badge = `[https://badgen.net/twitter/follow/${handle}](https://twitter.com/${handle})`
     const updatedContent = content.concat(Buffer.from(badge, 'utf8').toString(encoding))
 
-    console.log(JSON.stringify({
-        owner,
-        repo,
-        path: name,
-        message: '(Automated) Update README.md',
-        content: updatedContent,
-        sha,
-    }, null, 4))
-
-    return
-
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
-    const [err2, updated] = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
+    const [err2, updated] = await to(octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
         owner,
         repo,
         path: name,
         message: '(Automated) Update README.md',
         content: updatedContent,
         sha,
-    })
+    }))
     if (err2) {
         console.error('Failed PUT', JSON.stringify(err2, null, 4))
         core.debug('Failed PUT', JSON.stringify(err2, null, 4))
