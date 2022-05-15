@@ -4,8 +4,6 @@ const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const run = require('../../_helpers/run')
 const to = require('../../_helpers/to')
 
-console.log('token', process.env.GITHUB_TOKEN)
-
 run(async () => {
     let handle = core.getInput('handle')
     if (handle.startsWith('@')) handle.substring(1)
@@ -18,7 +16,8 @@ run(async () => {
         repo,
     }))
     if (err1) {
-        core.debug(err1)
+        console.error('Failed GET', JSON.stringify(err1, null, 4))
+        core.debug('Failed GET', JSON.stringify(err1, null, 4))
         core.setFailed(err1.message)
     }
 
@@ -38,6 +37,7 @@ run(async () => {
     })
     if (err2) {
         console.error('Failed PUT', JSON.stringify(err2, null, 4))
+        core.debug('Failed PUT', JSON.stringify(err2, null, 4))
         core.setFailed('Failed PUT', err2.message)
     }
 
