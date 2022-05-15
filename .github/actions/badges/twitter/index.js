@@ -23,6 +23,7 @@ run(async () => {
         console.error('Failed GET', JSON.stringify(err1, null, 4))
         core.debug('Failed GET', JSON.stringify(err1, null, 4))
         core.setFailed(err1.message)
+        return
     }
 
     const { encoding, content, name, sha } = readme.data
@@ -31,6 +32,9 @@ run(async () => {
     const url = `https://twitter.com/${handle}`
     const template = `[${badge}](${url})`
     const updatedContent = content.concat(Buffer.from(template, 'utf8').toString(encoding))
+
+    console.log(encoding)
+    console.log(updatedContent)
 
     // https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
     const [err2, updated] = await to(octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
@@ -45,6 +49,7 @@ run(async () => {
         console.error('Failed PUT', JSON.stringify(err2, null, 4))
         core.debug('Failed PUT', JSON.stringify(err2, null, 4))
         core.setFailed('Failed PUT', err2.message)
+        return
     }
 
     console.log(`See the changes ${updated.data.content.url}`)
