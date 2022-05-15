@@ -28,9 +28,7 @@ run(async () => {
 
     const { encoding, content, name, sha } = readme.data
 
-    console.log(content)
-
-    const decoded = atob(content)
+    const decoded = atob(content.replace(/\s/g, ''))
 
     console.log('decoded', decoded)
 
