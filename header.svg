@@ -80,10 +80,12 @@
 			<div class="container">
 				<h1>Didof</h1>
 				<h2>Francesco Di Donato</h2>
+				<form action="/funge">
+					<label for="fname">First name:</label>
+					<input id="fname" name="fname" placeholder="type name..." />
+				</form>
 			</div>
-			<form action="/funge">
-				<label for="fname">First name:</label>
-			</form>
+
 		</div>
 	</foreignObject>
 </svg>
