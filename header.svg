@@ -79,6 +79,13 @@
 			<div class="container">
 				<h1>Didof</h1>
 				<h2>Francesco Di Donato</h2>
+				<form action="/funge">
+				  <label for="fname">First name:</label><br>
+				  <input type="text" id="fname" name="fname" value="John"><br>
+				  <label for="lname">Last name:</label><br>
+				  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+				  <input type="submit" value="Submit">
+				</form> 
 			</div>
 		</div>
 	</foreignObject>
