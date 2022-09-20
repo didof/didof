@@ -17,7 +17,7 @@
           align-items: center;
           justify-content: center;
           width: 450px;
-          height: 230px;
+          height: 250px;
           animation-duration: 3s;
           animation-name: cube-rotate;
           animation-iteration-count: infinite;
@@ -44,6 +44,7 @@
           margin-right: 20px;
           display: flex;
           justify-content: center;
+          text-size: 12px;
         }
 
         .card {
@@ -153,9 +154,9 @@
             </main>
 
             <footer>
-              <div>https://twitter.com/did0f</div>
+              <div style="text-align: left">https://twitter.com/did0f</div>
               &#x202F;&#x202F;&#x202F;&#x2022;&#x202F;&#x202F;&#x202F;
-              <div>https://it.linkedin.com/in/didof</div>
+              <div style="text-align: right">https://it.linkedin.com/in/didof</div>
             </footer>
 
             <div class="overlay"></div>
