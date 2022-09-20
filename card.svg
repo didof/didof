@@ -16,8 +16,8 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          width: 80vw;
-          height: 40vw;
+          width: 450px;
+          height: 230px;
           animation-duration: 3s;
           animation-name: cube-rotate;
           animation-iteration-count: infinite;
