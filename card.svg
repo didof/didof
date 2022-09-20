@@ -3,18 +3,6 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        body {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background: linear-gradient(135deg, #eee, #ccc);
-          font-size: 5em;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-          font-weight: 800;
-          height: 100vh;
-        }
-
         section {
           position: relative;
           display: flex;
