@@ -81,9 +81,6 @@
 				<h1>Didof</h1>
 				<h2>Francesco Di Donato</h2>
 			</div>
-			<script>
-				document.querySelector("h1").style.color = "red";
-			</script>
 		</div>
 	</foreignObject>
 </svg>

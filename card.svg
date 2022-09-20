@@ -1,20 +1,62 @@
 <svg fill="none" viewBox="0 0 800 400" width="800" height="400"
   xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="background">
       <style>
-        section {
+        .background {
+          display: flex;
+          justify-content: center;
+          height: 400px;
+          width: 800px;
+        }
+
+        article {
+          margin-top: 100px;
           position: relative;
           display: flex;
           align-items: center;
           justify-content: center;
           width: 400px;
-          height: 310px;
+          height: 200px;
           animation-duration: 2s;
           animation-name: cube-rotate;
           animation-iteration-count: infinite;
           animation-direction: alternate;
           animation-timing-function: ease-in-out;
+        }
+
+        heading {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 16px;
+          margin-left: 20px;
+          margin-right: 16px;
+        }
+
+        main {
+          margin-top: 12px;
+          text-align: center;
+        }
+
+        footer {
+          text-align: center;
+          margin-bottom: 16px;
+        }
+
+        .card {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          font-family: monospace;
+          
+        }
+
+        strong {
+          font-size: 20px;
+        }
+
+        em {
+          font-size: 18px;
         }
 
         /* Isolation creates a new stacking context for mix-blend-mode. See: https://developer.mozilla.org/en-US/docs/Web/CSS/isolation */
@@ -32,7 +74,7 @@
           }
 
           to {
-            transform: perspective(600px) rotate3d(0.6, 0.05, 0.2, 20deg);
+            transform: perspective(600px) rotate3d(0.6, 0.05, 0.2, 10deg);
           }
         }
 
@@ -50,7 +92,7 @@
           width: 100%;
           height: 100%;
           padding: 8px;
-          background: linear-gradient(24deg, rgba(50 0 255/10%), CornflowerBlue), url("data:image/svg+xml,%3Csvg viewBox='0 0 400 310' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.55' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+          background: linear-gradient(24deg, rgba(50 0 255/10%), #4682B4), url("data:image/svg+xml,%3Csvg viewBox='0 0 400 310' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.55' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
           background-clip: text;
           -webkit-background-clip: text;
           color: transparent;
@@ -58,6 +100,11 @@
           animation-name: shimmer;
           animation-iteration-count: infinite;
           animation-direction: alternate;
+          border-radius: 5px;
+        }
+
+        .border {
+          background-color: red;
         }
 
         .overlay {
@@ -65,7 +112,7 @@
           top: 0;
           width: 100%;
           height: 100%;
-          background: antiquewhite;
+          background: #FFFAFA;
           mix-blend-mode: multiply;
         }
 
@@ -76,12 +123,29 @@
           }
         }
       </style>
-      <section>
+      <article>
         <div class="isolate">
-          <div class="noise">Francesco Di Donato</div>
-          <div class="overlay"></div>
+          <div class="card noise">
+            <heading>
+              <a href="mailto:didonato.fr@gmail.com">didonato.fr@gmail.com</a>
+
+              <span>Open Source</span>
+            </heading>
+
+            <main>
+              <strong>Francesco DI DONATO</strong>
+              <br />
+              <em>Software Engineer</em>
+            </main>
+
+            <footer>
+            Canosa di Puglia (BT) 76012, Italy
+            </footer>
+
+            <div class="overlay"></div>
+          </div>
         </div>
-      </section>
+      </article>
     </div>
   </foreignObject>
 </svg>
