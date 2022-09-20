@@ -154,9 +154,9 @@
             </main>
 
             <footer>
-              <div style="text-align: left">https://twitter.com/did0f</div>
+              <div style="text-align: left; text-size: 12px;">https://twitter.com/did0f</div>
               &#x202F;&#x202F;&#x202F;&#x2022;&#x202F;&#x202F;&#x202F;
-              <div style="text-align: right">https://it.linkedin.com/in/didof</div>
+              <div style="text-align: right; text-size: 12px;">https://it.linkedin.com/in/didof</div>
             </footer>
 
             <div class="overlay"></div>
