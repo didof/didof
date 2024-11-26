@@ -7,21 +7,21 @@
 
 <p align="left"> <a href="https://twitter.com/did0f" target="blank"><img src="https://img.shields.io/twitter/follow/did0f?logo=twitter&style=for-the-badge" alt="did0f" /></a> </p>
 
-- 🔭 I’m currently working for [listen.dev](listen.dev)
+- 🔭 I’m currently working for [listen.dev](https://dashboard.listen.dev)
 
-- 👯 I’m proud of [easypagego](easypagego.com)
+- 👯 I’m proud of [easypagego](https://easypagego.com)
 
-- 🤝 I’m looking forward [many next side projects](didof.dev)
+- 🤝 I’m looking forward [many next side projects](https://didof.dev)
 
-- 👨‍💻 All of my projects are available at [didof.dev](didof.dev)
+- 👨‍💻 All of my projects are available at [didof.dev](https://didof.dev)
 
-- 📝 I regularly write articles on [didof.dev/blog](didof.dev/blog)
+- 📝 I regularly write articles on [didof.dev/blog](https://didof.dev/blog)
 
 - 💬 Ask me about **SvelteKit, Golang, Authentication & Encryption, WebSockets**
 
-- 📫 How to reach me **didonato.fr@gmail.com**
+- 📫 How to reach me [didonato.fr@gmail.com](mailto:didonato.fr@gmail.com)
 
-- 📄 Know about my experiences [didof.dev/resume.pdf](didof.dev/resume.pdf)
+- 📄 Know about my experiences [didof.dev/resume.pdf](https://didof.dev/resume.pdf)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
