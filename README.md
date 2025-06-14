@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/did0f" target="blank"><img src="https://img.shields.io/twitter/follow/did0f?logo=twitter&style=for-the-badge" alt="did0f" /></a> </p>
 
-- 🔭 I’m currently working for [listen.dev](https://dashboard.listen.dev)
+- 🔭 I’m currently working for myself
 
 - 👯 I’m proud of [easypagego](https://easypagego.com)
 
